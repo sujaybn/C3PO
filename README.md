@@ -1,2 +1,2 @@
 # C3PO
-C3PO is an abbreviation for a Chandrayan-3 Probe Operator, an interpreter for navigating commands for a space probe. This repo is created for a Test Driven Development (TDD) assessment.
+C3PO, short for Chandrayan-3 Probe Operator, is the ultimate interpreter for piloting commands to a space probe. This repository is crafted for an epic journey of Test Driven Development (TDD) assessment.
