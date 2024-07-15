@@ -3,7 +3,11 @@
 
 ## Project Overview
 
-This project simulates the control system for the Chandrayaan 3 lunar spacecraft, enabling it to navigate through the galaxy using galactic coordinates. The spacecraft moves based on commands sent from Earth, which dictate its movement and orientation in space.
+This project simulates the control system for the Chandrayaan 3 lunar spacecraft, enabling it to navigate through the galaxy using galactic coordinates. 
+The spacecraft moves based on commands sent from Earth, which dictate its movement and orientation in space. 
+
+The main goal of this application is to take inputs from the end user in an array of charecters and translate them into co-ordinates (X,Y,Z), 
+which will be used by the spacecraft to navigate itself in the space.
 
 ## Table of Contents
 
@@ -15,7 +19,7 @@ This project simulates the control system for the Chandrayaan 3 lunar spacecraft
 
 ## Introduction
 
-As a scientist at ISRO, your task is to develop a program that translates commands into instructions understood by Chandrayaan 3. The spacecraft navigates using galactic coordinates (x, y, z) and follows specific commands to move and rotate.
+As a scientist at ISRO, the task is to develop a program that translates commands into instructions understood by Chandrayaan 3. The spacecraft navigates using galactic coordinates (x, y, z) and follows specific commands to move and rotate.
 
 ## Coordinates and Directions
 
@@ -100,7 +104,7 @@ As a scientist at ISRO, your task is to develop a program that translates comman
 1. Clone the repository:
    ```bash
    git clone https://github.com/sujaybn/C3PO.git
-   cd C3PO/C3PO_Interpreter
+   cd C3PO
    ```
 
 2. Build the project using Maven:
