@@ -112,20 +112,38 @@ As a scientist at ISRO, the task is to develop a program that translates command
    mvn clean install
    ```
 
-3. Run the main application:
-   ```bash
-   java -jar target/chandrayaan3-control-1.0-SNAPSHOT.jar
-   ```
+3. Run the main (Main.java) class 
 
 ### Example Usage
 
 You can test the application by providing input through the command line or a configuration file. The application will process the commands and output the final position and direction of the spacecraft.
 
+### Sample Input/Output
+
+```
+    Enter initial x coordinate:
+    0
+    Enter initial y coordinate:
+    0
+    Enter initial z coordinate:
+    0
+    Enter initial direction (N, S, E, W, U, D):
+    N
+    Enter commands (as a single string, e.g., 'frulb'):
+    frulb
+    Final Position: Position{x=1, y=0, z=0}
+    Final Direction: N
+```
 ### Sample Code Structure
 
 Here's a brief overview of the key classes in the project:
 
+- `Main.java` : This class handles command-line input and processes the commands to control the spacecraft.
 - `Spacecraft.java`: Contains the main logic for spacecraft movement and rotation.
 - `CommandProcessor.java`: Parses and executes commands.
 - `Direction.java`: Enum representing the possible directions (N, S, E, W, U, D).
 - `Position.java`: Represents the spacecraft's position in the galactic coordinates.
+
+### Testing evidences
+
+Kindly navigate to src/test/evidences directory to find the testing evidences at different stages of the build process. 
